@@ -15,7 +15,7 @@ export default function Register() {
     // set configurations
     const configuration = {
       method: "post",
-      url: "https://freecode-backend-testing.herokuapp.com//register",
+      url: "https://freecode-backend-testing.herokuapp.com/register",
       data: {
         email,
         password,
