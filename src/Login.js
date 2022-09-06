@@ -17,7 +17,7 @@ export default function Login() {
     // set configurations
     const configuration = {
       method: "post",
-      url: "https://nodejs-mongodb-auth-app.herokuapp.com/login",
+      url: "https://freecode-backend-testing.herokuapp.com/login",
       data: {
         email,
         password,
